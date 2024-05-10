@@ -19,9 +19,9 @@ def add_elements(lista_2):
 
 def is_empty(lista_3):
 	if len(lista_3) == 0:
-		return "Esta lista está vacía."
+		return True
 	else:
-		return "Esta lista no está vacía."
+		return False
 
 def check_list(a, b):
 	if len(a) >= 3 and len(b) >= 3:
